@@ -42,16 +42,13 @@ export default class Presentation extends React.Component {
         theme={theme}
       >
         <Slide transition={['zoom']} bgColor="primary">
-          <Heading size={1} fit caps lineHeight={1} textColor="secondary">
+          <Heading size={1} textColor="secondary">
             My Journey with Fitness and Nutrition
           </Heading>
         </Slide>
         <Slide transition={['fade']} bgColor="tertiary">
-          <Heading size={6} textColor="primary" caps>
-            Typography
-          </Heading>
           <Heading size={1} textColor="secondary">
-            Heading 1
+            Rationale
           </Heading>
           <Heading size={2} textColor="secondary">
             Heading 2
